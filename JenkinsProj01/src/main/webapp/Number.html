@@ -6,7 +6,7 @@
 <style type="text/css">
  body {
             font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
+            background-color: rgb(255, 128, 192);
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,7 +18,7 @@
         #main {
             width: 350px;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: rgb(0, 255, 255);
             border-radius: 8px;
             box-shadow: 10px 10px 20px gray;
         }
@@ -28,6 +28,7 @@
             display: block;
             margin-bottom: 5px;
             font-weight: bold;
+            text-align: center;
         }
 
         input[type="text"] {
@@ -43,7 +44,7 @@
 <body>
 <div id="main">
 <form action="cal" method="post">
-<label> Enter A Number : </label>
+<label> Enter A Number Check following Numbers : </label>
 <input type="text" placeholder="Enter A Number" required name="number"><br>
 <button name="numbertype" value="Prime">Prime</button>&nbsp;&nbsp;
 <button name="numbertype" value="Palindrome">Palindrome No</button>&nbsp;&nbsp;
