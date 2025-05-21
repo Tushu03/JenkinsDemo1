@@ -23,6 +23,6 @@
 
   </dependencies>
   <build>
-    <finalName>JenkinsDemo</finalName>
+    <finalName>JenkinsProj01</finalName>
   </build>
 </project>
